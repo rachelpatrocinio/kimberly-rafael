@@ -143,29 +143,27 @@ body{
 }
 
 .countdown-content{
-    padding-bottom: 30px;
-    padding-top: 30px;
-    border-bottom: 1px solid var(--gray);
+    padding: 90px;
     border-top: 1px solid var(--gray);
-
+    border-bottom: 1px solid var(--gray);
 }
 
 .countdown-content h1{
     font-size: 40px;
     color: var(--gray);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 /* MAIN - Section .question-box */
 
 svg{
     position: relative;
-    bottom: -20px;
+    bottom: -15px;
 }
 
 .rotate{
     transform: rotate(180deg);
-    top: -20px;
+    top: -15px;
 }
 
 .question-box{

@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px){
+    
+    .container-md{
+        max-width: 720px;
+        padding: 0 20px
+    }
+
+    /* Layout */
+
+    .m-md-10{
+        margin: 10px;
+    }
+    
+    /* Header */
+
+    .main-header__menu li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .container-sm{
+        max-width: 540px;
+    }
+
+    /* Header */
+
+    .main-header__menu li{
+        font-size: 10px;
+    }
+}

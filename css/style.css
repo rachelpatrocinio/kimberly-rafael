@@ -113,6 +113,10 @@ body{
     margin: 0 auto;
 }
 
+.col-3{
+    width: calc(3 * 100% / 12);
+}
+
 .col-4{
     width: calc(4 * 100% / 12);
 }
@@ -221,6 +225,7 @@ svg{
 
 .wedding-place{
     margin: 100px 0;
+    padding: 100px;
 }
 
 .wedding-place h1{
@@ -242,6 +247,19 @@ svg{
     display: block;
     font-size: 20px;
 }
+
+/* MAIN - Section .engagement */
+
+.engagement{
+    margin-top: 100pxs;
+}
+
+.engagement h1{
+    color: var(--darkpink);
+    font-size: 40px;
+    margin: 20px 0;
+}
+
 
 
 

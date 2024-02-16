@@ -1,6 +1,6 @@
 :root{
     --pink: #FFE1E1;
-    --lightpink: #FEEAE9;
+    --lightpink: #f6dbda;
     --darkpink: #FEAFB0;
     --white: #ffffff;
     --black: #000000;
@@ -153,6 +153,23 @@ body{
     font-size: 40px;
     color: var(--gray);
     margin-bottom: 30px;
+}
+
+/* MAIN - Section .question-box */
+
+svg{
+    position: relative;
+    bottom: -20px;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    top: -20px;
+}
+
+.question-box{
+    padding: 100px 0;
+    background-color: var(--lightpink);
 }
 
 

@@ -31,6 +31,12 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
   
 
 /* Utilities */
@@ -59,6 +65,10 @@ body{
     position: relative;
 }
 
+.p-20{
+    padding: 20px;
+}
+
 .pt-20{
     padding-top: 20px
 }
@@ -69,6 +79,14 @@ body{
 
 .m-20{
     margin: 20px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* Layout */
@@ -143,15 +161,21 @@ body{
 }
 
 .countdown-content{
-    padding: 90px;
-    border-top: 1px solid var(--gray);
-    border-bottom: 1px solid var(--gray);
+    margin: 50px;
 }
 
 .countdown-content h1{
     font-size: 40px;
     color: var(--gray);
     margin-bottom: 40px;
+}
+
+.countdown span{
+    display: block;
+    margin-bottom: 5px;
+    background-color: var(--pink);
+    border-radius: 24px;
+    margin-right: 10px;
 }
 
 /* MAIN - Section .question-box */
@@ -169,6 +193,68 @@ svg{
 .question-box{
     padding: 100px 0;
     background-color: var(--lightpink);
+    border-bottom: 1px solid var(--white);
+}
+
+/* Footer */
+
+.main-footer{
+    background-color: var(--lightpink);
+    
+}
+
+
+
+
+
+
+
+.slide-in-right{
+    animation-name: slide-in-right;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-right{
+    0%{
+        opacity:0;
+        transform: translateX(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.slide-in-left{
+    animation-name: slide-in-left;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-left{
+    0%{
+        opacity:0;
+        transform: translateX(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.slide-in-top{
+    animation-name: slide-in-top;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-top{
+    0%{
+        opacity:0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 

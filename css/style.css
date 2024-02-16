@@ -57,6 +57,14 @@ body{
     justify-content: center;
 }
 
+.gap-10{
+    gap: 10px;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
 .align-center{
     align-items: center;
 }
@@ -96,12 +104,21 @@ body{
 /* Layout */
 
 .container{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.container-lg{
     max-width: 960px;
     margin: 0 auto;
 }
 
 .col-4{
     width: calc(4 * 100% / 12);
+}
+
+.col-8{
+    width: calc(8 * 100% / 12);
 }
 
 /* Header */
@@ -199,6 +216,34 @@ svg{
     background-color: var(--lightpink);
     border-bottom: 1px solid var(--white);
 }
+
+/* MAIN - Section .wedding-place */
+
+.wedding-place{
+    margin: 100px 0;
+}
+
+.wedding-place h1{
+    color: var(--gray);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.wedding-place p{
+    line-height: 30px;
+    display: block;
+}
+
+.wedding-place p a:hover{
+    text-decoration: underline;
+}
+
+.wedding-place i{
+    display: block;
+    font-size: 20px;
+}
+
+
 
 /* Footer */
 

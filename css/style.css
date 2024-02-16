@@ -121,6 +121,10 @@ body{
     width: calc(4 * 100% / 12);
 }
 
+.col-6{
+    width: calc(6 * 100% / 12);
+}
+
 .col-8{
     width: calc(8 * 100% / 12);
 }
@@ -260,8 +264,11 @@ svg{
     margin: 20px 0;
 }
 
-
-
+.engagement div[class^="col"] img{
+    padding: 10px;
+    aspect-ratio: 2 /1;
+    object-fit: cover;
+}
 
 /* Footer */
 

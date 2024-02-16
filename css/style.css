@@ -1,0 +1,76 @@
+:root{
+    --pink: #FFE1E1;
+    --lightpink: #FEEAE9;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #626060;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,ol,menu{
+    list-style: none;
+}
+
+body{
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+/* Utilities */
+
+.flex{
+    display: flex;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+/* Layout */
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.main-header{
+    background-color: var(--pink);
+}
+
+.main-header__menu li{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.main-header__menu li a{
+    display: block;
+    padding: 20px;
+}
+
+.main-header__menu li:hover{
+    color: var(--gray);
+}
+
+
+
+

@@ -89,6 +89,10 @@ body{
     text-align: center;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 /* Layout */
 
 .container{
@@ -191,7 +195,7 @@ svg{
 }
 
 .question-box{
-    padding: 100px 0;
+    padding-top: 100px;
     background-color: var(--lightpink);
     border-bottom: 1px solid var(--white);
 }
@@ -200,7 +204,18 @@ svg{
 
 .main-footer{
     background-color: var(--lightpink);
-    
+}
+
+.main-footer .social{
+    margin: 10px 0;
+}
+
+.main-footer .social i{
+    font-size: 20px;
+}
+
+.main-footer .social .underline:hover{
+    color: var(--darkpink);
 }
 
 

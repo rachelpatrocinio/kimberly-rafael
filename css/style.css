@@ -101,6 +101,10 @@ body{
     text-decoration: underline;
 }
 
+.height-100{
+    height: 100%;
+}
+
 /* Layout */
 
 .container{
@@ -235,7 +239,7 @@ svg{
 .wedding-place h1{
     color: var(--gray);
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .wedding-place p{
@@ -243,13 +247,24 @@ svg{
     display: block;
 }
 
+.wedding-place p a{
+    display: inline-block;
+}
+
 .wedding-place p a:hover{
     text-decoration: underline;
+    color: var(--darkpink);
 }
 
 .wedding-place i{
-    display: block;
+    display: inline-block;
     font-size: 20px;
+    margin-right: 10px;
+    color: var(--darkpink);
+}
+
+.wedding-place iframe{
+    padding: 10px;
 }
 
 /* MAIN - Section .engagement */

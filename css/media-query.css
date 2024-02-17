@@ -1,7 +1,23 @@
+@media screen and (max-width: 992px){
+    .container-lg{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+     /* Header */
+
+     .main-header__menu li{
+        font-size: 14px;
+    }
+}
+
+
+
 @media screen and (max-width: 768px){
     
     .container-md{
         max-width: 720px;
+        margin: 0 auto;
     }
 
     /* Layout */
@@ -20,12 +36,6 @@
 
     .m-md-10{
         margin: 10px;
-    }
-    
-    /* Header */
-
-    .main-header__menu li{
-        font-size: 14px;
     }
 
 }

@@ -116,8 +116,8 @@ body{
     padding: 0 20px;
 }
 
-.container-lg{
-    max-width: 960px;
+.container-xl{
+    max-width: 1140px;
     margin: 0 auto;
 }
 

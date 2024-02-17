@@ -75,7 +75,8 @@
     
 
     .countdown-content h1{
-        font-size: 22px;
+        font-size: 18px;
+        margin-bottom: 30px;
     }
 
     .countdown span{
@@ -107,6 +108,16 @@
 
     .question-box iframe{
         width: 80%;
+    }
+
+    /* Footer */
+
+    .main-footer{
+        font-size: 12px;
+    }
+
+    .main-footer .social i{
+        font-size: 14px;
     }
    
 }

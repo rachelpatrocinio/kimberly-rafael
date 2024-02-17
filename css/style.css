@@ -300,6 +300,10 @@ svg{
     background-color: var(--lightpink);
 }
 
+.main-footer__title{
+    margin-bottom: 20px;
+}
+
 .main-footer .social{
     margin: 10px 0;
 }

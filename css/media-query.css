@@ -9,9 +9,13 @@
      .main-header__menu li{
         font-size: 14px;
     }
+
+    /* MAIN - Section .hero */
+
+    .hero__img{
+        padding: 10px;
+    }
 }
-
-
 
 @media screen and (max-width: 768px){
     
@@ -31,6 +35,12 @@
         font-size: 20px;
     }
 
+      /* MAIN - Section .hero */
+
+      .hero__img{
+        padding: 5px;
+    }
+
     /* Layout */
 
     .flex-md-wrap{
@@ -44,11 +54,6 @@
     .col-md-12{
         width: calc(12 * 100% / 12);
     }
-
-    .m-md-10{
-        margin: 10px;
-    }
-
 }
 
 @media screen and (max-width: 576px){
@@ -101,7 +106,7 @@
     }
 
     .question-box iframe{
-        width: 70%;
+        width: 80%;
     }
    
 }

@@ -314,6 +314,10 @@ svg{
    padding: 50px;
 }
 
+.us__title h1 span{
+    color: var(--darkpink);
+}
+
 .us img{
     display: block;
     padding: 20px;

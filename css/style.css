@@ -161,6 +161,11 @@ body{
     transition: 0.8s;
 }
 
+.main-header__hamburger{
+    color: var(--darkpink);
+    display: none;
+}
+
 /* MAIN - Section .hero */
 
 .hero{

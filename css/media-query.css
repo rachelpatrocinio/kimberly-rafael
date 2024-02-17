@@ -20,6 +20,17 @@
         margin: 0 auto;
     }
 
+    .main-header__menu{
+        display: none;
+    }
+
+    .main-header__hamburger{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        font-size: 20px;
+    }
+
     /* Layout */
 
     .flex-md-wrap{
@@ -92,9 +103,5 @@
     .question-box iframe{
         width: 70%;
     }
-
-
-
-
    
 }

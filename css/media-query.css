@@ -117,6 +117,17 @@
         width: 80%;
     }
 
+    /* MAIN - Section .us */
+
+    .us__title{
+        font-size: 6px;
+        padding: 15px;
+    }
+
+    .us img{
+        padding: 5px;
+    }
+
     /* Footer */
 
     .main-footer{

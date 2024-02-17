@@ -305,6 +305,10 @@ svg{
     margin: 200px 0;
 }
 
+.us .row{
+    border: 2px solid var(--lightpink);
+}
+
 .us__title{
    justify-content: center;
    padding: 50px;

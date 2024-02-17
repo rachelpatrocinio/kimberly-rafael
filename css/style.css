@@ -289,9 +289,9 @@ svg{
     margin: 20px 0;
 }
 
-.engagement div[class^="col"] img{
+.engagement img{
     padding: 10px;
-    aspect-ratio: 2 /1;
+    aspect-ratio: 2 / 1;
     object-fit: cover;
 }
 

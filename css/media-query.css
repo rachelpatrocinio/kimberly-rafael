@@ -62,6 +62,10 @@
         max-width: 540px;
     }
 
+    .col-sm-12{
+        width: calc(12 * 100% / 12);
+    }
+
     /* Header */
 
     .main-header__menu li{
@@ -105,6 +109,9 @@
     .engagement h1{
         font-size: 20px;
     }
+
+
+    /* MAIN - Section .question-box */
 
     .question-box iframe{
         width: 80%;

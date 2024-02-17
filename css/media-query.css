@@ -28,13 +28,6 @@
         font-size: 14px;
     }
 
-     /* MAIN - Section .wedding-place */
-
-     .wedding-place .col{
-        flex-wrap: wrap;
-     }
-
-
 }
 
 @media screen and (max-width: 576px){

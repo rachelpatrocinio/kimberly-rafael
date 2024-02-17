@@ -57,6 +57,10 @@ body{
     justify-content: center;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .gap-10{
     gap: 10px;
 }
@@ -233,17 +237,17 @@ svg{
 
 .wedding-place{
     margin: 100px 0;
-    padding: 100px;
+    padding: 100px 50px;
 }
 
 .wedding-place h1{
     color: var(--gray);
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .wedding-place p{
-    line-height: 30px;
+    font-size: 20px;
     display: block;
 }
 
@@ -264,7 +268,7 @@ svg{
 }
 
 .wedding-place iframe{
-    padding: 10px;
+    padding: 10px 0;
 }
 
 /* MAIN - Section .engagement */

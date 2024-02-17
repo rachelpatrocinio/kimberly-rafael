@@ -93,6 +93,10 @@ body{
     margin: 20px;
 }
 
+.mt-10{
+    margin-top: 10px;
+}
+
 .mt-50{
     margin-top: 50px;
 }
@@ -293,6 +297,26 @@ svg{
     padding: 10px;
     aspect-ratio: 2 / 1;
     object-fit: cover;
+}
+
+/* MAIN - Section .us */
+
+.us{
+    margin: 200px 0;
+}
+
+.us__title{
+   justify-content: center;
+   padding: 50px;
+}
+
+.us img{
+    display: block;
+    padding: 20px;
+}
+
+.us figure img{
+    width: 50%;
 }
 
 /* Footer */

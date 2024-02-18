@@ -73,25 +73,25 @@
     }
 
     /* MAIN - Section .maids-of-honor */
-    /* MAIN - Section .bridesmaids */
+    /* MAIN - Section .bridesmaids-groomsmen */
     /* MAIN - Section .bestmen */
 
 
     .maids-of-honor__title,
-    .bridesmaids__title,
+    .bridesmaids-groomsmen__title,
     .bestmen__title{
         font-size: 20px;
         margin-bottom: 20px;
     }
 
     .maids-of-honor__title span,
-    .bridesmaids__title span{
+    .bridesmaids-groomsmen__title span{
         font-size: 8px; 
     }
 
     .matron-of-honor__card,
     .maids-of-honor__card,
-    .bridesmaids__card,
+    .bridesmaids-groomsmen__card,
     .bestmen__card{
         margin-bottom: 50px;
     }
@@ -102,13 +102,19 @@
         border: 2px solid var(--darkpink);
     }
 
-    .bestmen__card img{
+    .bestmen__card img,
+    .groomsmen__card img{
         border: 2px solid var(--gray);
     }
 
     .maids-of-honor h3,
-    .bridesmaids h3{
+    .bestmen h3{
         font-size: 14px;
+    }
+
+    .bridesmaids__card h3,
+    .groomsmen__card h3{
+        display: none;
     }
 }
 

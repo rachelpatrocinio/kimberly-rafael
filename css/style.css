@@ -437,13 +437,6 @@ svg{
     border: 5px solid var(--gray);
 }
 
-.groomsmen__card img{
-    aspect-ratio: 1 / 1;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .bridesmaids__card img:hover{
     cursor: pointer;
     border: 5px solid var(--lightpink);

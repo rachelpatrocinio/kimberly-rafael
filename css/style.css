@@ -327,6 +327,38 @@ svg{
     width: 50%;
 }
 
+/* MAIN - Section .maids-of-honor */
+
+.maids-of-honor .row{
+    padding: 50px;
+}
+
+.maids-of-honor__title{
+    color: var(--gray);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.maids-of-honor__title span{
+    font-size: 30px;
+    color: var(--darkpink);
+}
+
+.maids-of-honor__img{
+    width: 50%;
+}
+
+.maids-of-honor__description{
+    padding: 20px;
+}
+
+.maids-of-honor img{
+    aspect-ratio: 1 / 1;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid var(--darkpink);
+}
+
 /* Footer */
 
 .main-footer{

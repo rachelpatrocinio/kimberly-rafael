@@ -236,12 +236,6 @@ body{
     margin: 50px;
 }
 
-.countdown-content h1{
-    font-size: 40px;
-    color: var(--gray);
-    margin-bottom: 40px;
-}
-
 .countdown span{
     display: block;
     margin-bottom: 5px;
@@ -517,6 +511,37 @@ svg{
         transform: translateY(0px);
     }
 }
+
+/* .highlights{
+    animation-name: highlights;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes highlights{
+
+    0%{
+        width: 100%;
+    }
+
+    25% {
+        width: 95%;
+    }
+
+    50%{
+        width: 100%;
+    }
+
+    75%{
+        width: 95%;
+    }
+
+    100%{
+        width: 100%;
+    }
+
+} */
 
 
 

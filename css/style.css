@@ -314,7 +314,7 @@ svg{
     margin: 20px 0;
 }
 
-.engagement img{
+.engagement .flex img{
     padding: 10px;
     aspect-ratio: 2 / 1;
     object-fit: cover;

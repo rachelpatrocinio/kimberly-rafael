@@ -96,15 +96,21 @@
         margin-bottom: 50px;
     }
 
-
+    .matron-of-honor__card img,
     .maids-of-honor__card img,
     .bridesmaids__card img{
         border: 2px solid var(--darkpink);
     }
 
+    .maids-of-honor__card img,
+    .bridesmaids__card img{
+        padding: 5px;
+    }
+
     .bestmen__card img,
     .groomsmen__card img{
         border: 2px solid var(--gray);
+        padding: 5px;
     }
 
     .maids-of-honor h3,

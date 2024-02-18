@@ -350,10 +350,12 @@ svg{
 
 /* MAIN - Section .matron-of-honor  .maids-of-honor */
 
-.maids-of-honor__title{
-    color: var(--gray);
+.maids-of-honor__title img{
+    /* color: var(--gray);
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
+    display: block;
+
 }
 
 .maids-of-honor__title span{
@@ -370,8 +372,8 @@ svg{
     object-fit: cover;
 }
 
-.matron-of-honor img:hover,
-.maids-of-honor img:hover{
+.matron-of-honor__card img:hover,
+.maids-of-honor__card img:hover{
     cursor: pointer;
     border: 5px solid var(--lightpink);
 }

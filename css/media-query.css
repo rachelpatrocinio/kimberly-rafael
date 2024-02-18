@@ -108,6 +108,10 @@
         border: 2px solid var(--darkpink);
     }
 
+    .bridesmaids__card{
+        flex-direction: column-reverse;
+    }
+
     .bridesmaids__card img{
         padding: 5px;
     }
@@ -116,6 +120,7 @@
         border: 2px solid var(--gray);
         padding: 5px;
     }
+
 
     .bridesmaids__card,
     .groomsmen__card{

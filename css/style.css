@@ -402,20 +402,58 @@ svg{
     border: 5px solid var(--lightgray);
 }
 
-/* MAIN - Section .bridesmaids */
+/* MAIN - Section .bridesmaids-groomsmen */
 
-.bridesmaids__card img{
+.bridesmaids-groomsmen__title{
+    color: var(--gray);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.bridesmaids-groomsmen__title span{
+    font-size: 30px;
+    color: var(--darkpink);
+}
+
+.bridesmaids-groomsmen h3{
+    flex-grow: 1;
+}
+
+.bridesmaids__card img,
+.groomsmen__card img{
     aspect-ratio: 1 / 1;
     width: 200px;
     border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.bridesmaids__card img{
     border: 5px solid var(--darkpink);
+}
+
+.groomsmen__card img{
+    border: 5px solid var(--gray);
+}
+
+.groomsmen__card img{
+    aspect-ratio: 1 / 1;
+    width: 200px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
-.bridesmaids img:hover{
+.bridesmaids__card img:hover{
     cursor: pointer;
     border: 5px solid var(--lightpink);
-} 
+}
+
+.groomsmen__card img:hover{
+    cursor: pointer;
+    border: 5px solid var(--lightgray);
+}
+
 
 /* Footer */
 

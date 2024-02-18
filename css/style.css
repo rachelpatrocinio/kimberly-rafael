@@ -362,6 +362,7 @@ svg{
 .maids-of-honor__card img:hover{
     cursor: pointer;
     border: 5px solid var(--lightpink);
+    transition: 0.2s;
 }
 
 /* MAIN - Section .bestmen */
@@ -388,6 +389,8 @@ svg{
 
 .bestmen__card img:hover{
     border: 5px solid var(--lightgray);
+    transition: 0.2s;
+    transition: 0.2s;
 }
 
 /* MAIN - Section .bridesmaids-groomsmen */
@@ -428,11 +431,13 @@ svg{
 .bridesmaids__card img:hover{
     cursor: pointer;
     border: 5px solid var(--lightpink);
+    transition: 0.2s;
 }
 
 .groomsmen__card img:hover{
     cursor: pointer;
     border: 5px solid var(--lightgray);
+    transition: 0.2s;
 }
 
 

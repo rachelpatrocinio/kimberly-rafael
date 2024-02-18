@@ -61,6 +61,10 @@ body{
     flex-wrap: wrap;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .gap-10{
     gap: 10px;
 }
@@ -82,7 +86,11 @@ body{
 }
 
 .pt-20{
-    padding-top: 20px
+    padding-top: 20px;
+}
+
+.pl-20{
+    padding-left: 20px;
 }
 
 .pb-20{
@@ -347,7 +355,7 @@ svg{
 .bridesmaids__title{
     color: var(--gray);
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .maids-of-honor__title span,
@@ -356,22 +364,22 @@ svg{
     color: var(--darkpink);
 }
 
-.maids-of-honor__img,
-.bridesmaids__img{
-    width: 50%;
-}
-
-.maids-of-honor__description,
-.bridesmaids__description{
-    padding: 20px;
-}
-
-.maids-of-honor img,
-.bridesmaids img{
+.maids-of-honor__card img,
+.bridesmaids__card img{
     aspect-ratio: 1 / 1;
-    width: 250px;
+    width: 200px;
     border-radius: 50%;
     border: 5px solid var(--darkpink);
+    object-fit: cover;
+}
+
+.maids-of-honor__card img{
+    width: 250px;
+}
+
+.maids-of-honor__card,
+.bridesmaids__card{
+    padding: 20px;
 }
 
 .maids-of-honor img:hover,

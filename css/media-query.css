@@ -137,5 +137,32 @@
     .main-footer .social i{
         font-size: 14px;
     }
+
+    /* MAIN - Section .maids-of-honor */
+    /* MAIN - Section .bridesmaids */
+
+    .maids-of-honor__title,
+    .bridesmaids__title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+    .maids-of-honor__title span,
+    .bridesmaids__title span{
+    font-size: 8px;
+    }
+
+    .maids-of-honor__card img,
+    .bridesmaids__card img{
+        border: 2px solid var(--darkpink);
+    }
+
+    .maids-of-honor h3,
+    .bridesmaids h3{
+        font-size: 14px;
+    }
+
+   
    
 }

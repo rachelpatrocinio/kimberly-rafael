@@ -101,8 +101,16 @@ body{
     margin-top: 50px;
 }
 
+.mb-20{
+    margin-bottom: 20px;
+}
+
 .text-center{
     text-align: center;
+}
+
+.text-end{
+    text-align: end;
 }
 
 .underline{
@@ -328,37 +336,49 @@ svg{
 }
 
 /* MAIN - Section .maids-of-honor */
+/* MAIN - Section .bridesmaids */
 
-.maids-of-honor .row{
+.maids-of-honor .row,
+.bridesmaids .row{
     padding: 50px;
 }
 
-.maids-of-honor__title{
+.maids-of-honor__title,
+.bridesmaids__title{
     color: var(--gray);
     font-size: 40px;
     margin-bottom: 30px;
 }
 
-.maids-of-honor__title span{
+.maids-of-honor__title span,
+.bridesmaids__title span{
     font-size: 30px;
     color: var(--darkpink);
 }
 
-.maids-of-honor__img{
+.maids-of-honor__img,
+.bridesmaids__img{
     width: 50%;
 }
 
-.maids-of-honor__description{
+.maids-of-honor__description,
+.bridesmaids__description{
     padding: 20px;
 }
 
-.maids-of-honor img{
+.maids-of-honor img,
+.bridesmaids img{
     aspect-ratio: 1 / 1;
     width: 250px;
     border-radius: 50%;
     border: 5px solid var(--darkpink);
 }
 
+.maids-of-honor img:hover,
+.bridesmaids img:hover{
+    cursor: pointer;
+    border: 5px solid var(--lightpink);
+}
 /* Footer */
 
 .main-footer{

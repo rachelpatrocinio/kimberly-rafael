@@ -52,7 +52,7 @@
     }
 
     /* MAIN - Section .countdown */
-        .countdown{
+    .countdown{
         margin: 50px 0;
     }
     
@@ -74,12 +74,14 @@
 
     /* MAIN - Section .maids-of-honor */
     /* MAIN - Section .bridesmaids */
+    /* MAIN - Section .bestmen */
+
 
     .maids-of-honor__title,
-    .bridesmaids__title{
+    .bridesmaids__title,
+    .bestmen__title{
         font-size: 20px;
         margin-bottom: 20px;
-        text-align: center;
     }
 
     .maids-of-honor__title span,
@@ -87,16 +89,27 @@
         font-size: 8px; 
     }
 
+    .matron-of-honor__card,
+    .maids-of-honor__card,
+    .bridesmaids__card,
+    .bestmen__card{
+        margin-bottom: 50px;
+    }
+
+
     .maids-of-honor__card img,
     .bridesmaids__card img{
         border: 2px solid var(--darkpink);
+    }
+
+    .bestmen__card img{
+        border: 2px solid var(--gray);
     }
 
     .maids-of-honor h3,
     .bridesmaids h3{
         font-size: 14px;
     }
-
 }
 
 @media screen and (max-width: 576px){

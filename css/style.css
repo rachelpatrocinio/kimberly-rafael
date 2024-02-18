@@ -5,6 +5,7 @@
     --white: #ffffff;
     --black: #000000;
     --gray: #626060;
+    --lightgray: #BEBEBE;
 }
 
 *{
@@ -111,6 +112,10 @@ body{
 
 .mb-20{
     margin-bottom: 20px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
 }
 
 .text-center{
@@ -343,28 +348,62 @@ svg{
     width: 50%;
 }
 
-/* MAIN - Section .maids-of-honor */
-/* MAIN - Section .bridesmaids */
+/* MAIN - Section .matron-of-honor  .maids-of-honor */
 
-.maids-of-honor .row,
-.bridesmaids .row{
-    padding: 50px;
-}
-
-.maids-of-honor__title,
-.bridesmaids__title{
+.maids-of-honor__title{
     color: var(--gray);
     font-size: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
-.maids-of-honor__title span,
-.bridesmaids__title span{
+.maids-of-honor__title span{
     font-size: 30px;
     color: var(--darkpink);
 }
 
-.maids-of-honor__card img,
+.matron-of-honor__card img,
+.maids-of-honor__card img{
+    aspect-ratio: 1 / 1;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid var(--darkpink);
+    object-fit: cover;
+}
+
+.matron-of-honor img:hover,
+.maids-of-honor img:hover{
+    cursor: pointer;
+    border: 5px solid var(--lightpink);
+}
+
+/* MAIN - Section .bestmen */
+
+.bestmen__title{
+    color: var(--gray);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.bestmen__title span{
+    font-size: 30px;
+    color: var(--darkpink);
+}
+
+
+.bestmen__card img{
+    aspect-ratio: 1 / 1;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid var(--gray);
+    object-fit: cover;
+}
+
+.bestmen__card img:hover{
+    border: 5px solid var(--lightgray);
+}
+
+/* MAIN - Section .bridesmaids */
+
 .bridesmaids__card img{
     aspect-ratio: 1 / 1;
     width: 200px;
@@ -373,20 +412,11 @@ svg{
     object-fit: cover;
 }
 
-.maids-of-honor__card img{
-    width: 250px;
-}
-
-.maids-of-honor__card,
-.bridesmaids__card{
-    padding: 20px;
-}
-
-.maids-of-honor img:hover,
 .bridesmaids img:hover{
     cursor: pointer;
     border: 5px solid var(--lightpink);
-}
+} 
+
 /* Footer */
 
 .main-footer{

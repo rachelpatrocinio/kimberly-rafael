@@ -117,11 +117,6 @@
     .bestmen h3{
         font-size: 14px;
     }
-
-    .bridesmaids__card h3,
-    .groomsmen__card h3{
-        display: none;
-    }
 }
 
 @media screen and (max-width: 576px){

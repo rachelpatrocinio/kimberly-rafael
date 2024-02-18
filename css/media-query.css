@@ -68,8 +68,14 @@
 
     /* MAIN - Section .hero */
 
-      .hero__img{
+    .hero__img{
         padding: 5px;
+    }
+
+    /* MAIN - Section .wedding-place */
+
+    .wedding-place-video{
+        height: 200px;
     }
 
     /* MAIN - Section .maids-of-honor */

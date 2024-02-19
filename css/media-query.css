@@ -135,6 +135,25 @@
     .bestmen h3{
         font-size: 14px;
     }
+
+    /* MAIN - Section .question-box */
+
+    .question-box button{
+        border: 2px solid var(--gray);
+        font-size: 20px;
+        width: 300px;
+        margin: 50px 0;
+
+    }
+
+    .question-box button a{
+        padding: 20px;
+    }
+
+    .pb-sm-50{
+        padding-bottom: 50px;
+    }
+
 }
 
 @media screen and (max-width: 576px){

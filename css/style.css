@@ -441,6 +441,7 @@ svg{
 
 .question-box{
     background-color: var(--lightpink);
+    padding: 80px;
 }
 
 .question-box button{
@@ -542,7 +543,7 @@ svg{
 
 .highlights{
     animation-name: highlights;
-    animation-duration: 2s;
+    animation-duration: 2.0s;
     animation-iteration-count: infinite;
 
 }
@@ -550,23 +551,28 @@ svg{
 @keyframes highlights{
 
     0%{
-        font-size: 100%;
+        color: var(--gray);
+        border-color: var(--gray);
     }
 
     25% {
-        font-size: 98%;
+        color: var(--darkpink);
+        border-color: var(--darkpink);
     }
 
     50%{
-        font-size: 100%;
+        color: var(--gray);
+        border-color:  var(--gray);
     }
 
     75%{
-        font-size: 98%;
+        color: var(--darkpink);
+        border-color: (var(--darkpink));
     }
 
     100%{
-        font-size: 100%;
+        color: var(--gray);
+        border-color: var(--gray);
     }
 
 }

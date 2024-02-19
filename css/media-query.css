@@ -170,6 +170,7 @@
 
     .container-sm{
         max-width: 540px;
+        margin: 0 auto;
     }
 
     .col-sm-12{

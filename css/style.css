@@ -473,7 +473,11 @@ svg{
 .hashtag h1{
     font-size: 30px;
     color: var(--darkpink);
-    margin: 50px 0;
+    margin: 30px 0;
+}
+
+.hashtag__social img{
+    margin: 0 5px;
 }
 
 /* Footer */

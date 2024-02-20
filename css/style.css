@@ -485,6 +485,7 @@ svg{
 .main-footer{
     background-color: var(--lightpink);
     border-top: 1px solid var(--white);
+    padding-bottom: 50px;
 
 }
 
@@ -505,12 +506,18 @@ svg{
 }
 
 .main-footer .creator{
-    font-size: 14px;
+    font-size: 10px;
+    padding: 10px;
 }
 
 .main-footer .creator span{
     text-decoration: underline;
 }
+
+.main-footer .creator h4{
+    margin-top: 5px;
+}
+
 
 
 

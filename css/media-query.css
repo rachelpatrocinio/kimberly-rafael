@@ -168,6 +168,10 @@
 
 @media screen and (max-width: 576px){
 
+    .container{
+        padding: 0;
+    }
+
     .container-sm{
         max-width: 540px;
         margin: 0 auto;

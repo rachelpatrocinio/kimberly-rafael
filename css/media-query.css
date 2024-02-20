@@ -72,6 +72,10 @@
         padding: 5px;
     }
 
+    .hero .overlay{
+        font-size: 30px;
+    }
+
     /* MAIN - Section .wedding-place */
 
     .wedding-place-video{

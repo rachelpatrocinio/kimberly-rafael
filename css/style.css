@@ -382,7 +382,6 @@ body{
 .bestmen__card img:hover{
     border: 5px solid var(--lightgray);
     transition: 0.2s;
-    transition: 0.2s;
 }
 
 /* MAIN - Section .bridesmaids-groomsmen */
@@ -398,17 +397,12 @@ body{
     color: var(--darkpink);
 }
 
-.bridesmaids-groomsmen h3{
-    flex-grow: 1;
-}
-
 .bridesmaids__card img,
 .groomsmen__card img{
     aspect-ratio: 1 / 1;
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
-    flex-shrink: 0;
     padding: 10px;
 }
 
@@ -502,6 +496,14 @@ svg{
 
 .main-footer .social .underline:hover{
     color: var(--darkpink);
+}
+
+.main-footer .creator{
+    font-size: 14px;
+}
+
+.main-footer .creator span{
+    text-decoration: underline;
 }
 
 

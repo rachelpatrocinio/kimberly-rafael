@@ -370,6 +370,12 @@ body{
     color: var(--darkpink);
 }
 
+.bestmen__title img{
+    width: 300px;
+}
+
+
+
 
 .bestmen__card img{
     aspect-ratio: 1 / 1;

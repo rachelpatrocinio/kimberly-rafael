@@ -6,6 +6,7 @@
     --black: #000000;
     --gray: #626060;
     --lightgray: #BEBEBE;
+    --brown: #AB9888;
 }
 
 *{
@@ -516,6 +517,10 @@ svg{
 
 .main-footer .creator h4{
     margin-top: 5px;
+}
+
+.main-footer .creator img{
+    border: 3px solid var(--brown);
 }
 
 

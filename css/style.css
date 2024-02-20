@@ -331,6 +331,10 @@ body{
     padding: 20px;
 }
 
+.us img[src="./img/us3.jpeg"]{
+    object-fit: cover;
+}
+
 .us figure img{
     width: 50%;
 }

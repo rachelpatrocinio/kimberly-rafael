@@ -32,6 +32,9 @@ body{
     font-family: "Ms Madi", cursive;
     font-weight: 400;
     font-style: normal;
+    background-image: url("../texts/sfondo\ KIM_page-0001.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .ubuntu-regular {
@@ -178,7 +181,7 @@ body{
 /* Header */
 
 .main-header{
-    padding-top: 40px;
+    padding-top: 250px;
 }
 
 /* MAIN - Section .hero */

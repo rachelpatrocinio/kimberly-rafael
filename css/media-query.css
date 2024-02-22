@@ -40,6 +40,10 @@
 
     /* Header */
 
+    .main-header{
+        padding-top: 200px;
+    }
+
     .main-header__menu{
         display: none;
     }
@@ -182,6 +186,10 @@
     }
 
     /* Header */
+
+    .main-header{
+        padding-top: 135px;
+    }
 
     .main-header__menu li{
         display: none;
